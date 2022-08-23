@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(233, 231, 255);
+        }
+        
+        * {
+            line-height: 2;
+            /* font-size: 12px; */
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -29px;
+            margin-left: 10px;
+        }
+        
+        .col-md-2 {
+            background-color: rgb(201, 201, 201);
+            margin: 4px;
+            padding: 4px;
+            flex: 1 0 25%;
+            max-width: 23%;
+            font-weight: bold
+        }
+        
+        .col-lg-6,
+        .col-sm-6,
+        .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        
+        .col-lg-12,
+        .col-md-12 {
+            flex: 0 0 50%;
+            max-width: 100%;
+        }
+        
+        .col-sm-12 {
+            flex: 1 0 50%;
+            max-width: 100%;
+        }
+        
+        .col-lg-5,
+        .col-sm-5,
+        .col-md-5 {
+            flex: 0 0 50%;
+            max-width: 40%;
+        }
+        
+        .col-lg-5 {
+            flex: 0 0 50%;
+            max-width: 40%;
+        }
+        
+        .col-sm-4 {
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+        }
+        
+        .col-sm-8 {
+            flex: 0 0 66.666667%;
+            max-width: 66.666667%;
+        }
+        
+        .card-body {
+            flex: 1 1 auto;
+            padding: 1.25rem;
+        }
+        
+        .card .card-body {
+            min-height: 100px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .card {
+            border: 0;
+            border-radius: 0.1875rem;
+            display: inline-block;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 10px;
+            padding-right: 37px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+        }
+        
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        
+        .text-uppercase {
+            text-transform: uppercase!important;
+        }
+        
+        b,
+        strong {
+            font-weight: bolder;
+        }
+        
+        .center {
+            display: block;
+            margin-left: 90%;
+            width: 20%;
+        }
+        
+        .list-group-item {
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, .125);
+            display: block;
+            padding: 0.5rem 1rem;
+            position: relative;
+            text-decoration: none;
+        }
+        
+        li {
+            margin-top: 15px;
+        }
+        
+        .list-group-item+.list-group-item {
+            border-top-width: 0;
+        }
+        
+        #qualification {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #qualification th {
+            padding-top: 8px;
+            padding-left: 8px;
+            padding-bottom: 8px;
+            font-size: 14px;
+            text-align: left;
+            background-color: #05023fce;
+            color: #fff;
+        }
+        
+        #qualification td,
+        #qualification th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        
+        h2 {
+            text-decoration: underline;
+        }
+        
+        h4 {
+            line-height: 0.5 !important;
+        }
+        
+        img {
+            border: 1px solid rgb(192, 191, 191)
+        }
+        
+        @media only screen and (max-width: 671px) {
+            body {
+                background-color: rgb(250, 252, 233);
+            }
+            .table-responsive {
+                overflow-x: auto;
+            }
+        }
+        
+        *,
+         :after,
+         :before {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card aos-init aos-animate" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaytfpFF7DhpFlyNStvoSloA_hGLvMD2CmcIomfVdv&s" alt="" height="100" width="200" class="center">
+                </div>
+
+
+                <br>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 ">
+                    <div>
+                        <h4 style="text-align:center">Name: Oly Rajak</h4>
+                        <h4 style="text-align:center">Employee Id: 672y7uudehjshbsdhbsd</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-body">
+                <h2 style="text-align: center">Basic Details</h2>
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+
+                        <ul class="list-group list-group-unbordered mb-3">
+                            <li class="list-group-item">
+                                <b>Name:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)"> XYZ</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+
+
+                        <ul class="list-group list-group-unbordered mb-3">
+                            <li class="list-group-item">
+                                <b>Name:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)"> XYZ</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>XXXXXX:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  XXXXXX </a>
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <h2 style="text-align: center">Document Details</h2>
+            <div class="row">
+                <div class="col-md-2 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                    <div class="card-body cc-experience-header">
+                        <p>March 2016 - Present</p>
+                        <div class="h5">xxxx</div>
+                    </div>
+                </div>
+                <div class="col-md-2 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                    <div class="card-body cc-experience-header">
+                        <p>March 2016 - Present</p>
+                        <div class="h5">xxxx</div>
+                    </div>
+                </div>
+                <div class="col-md-2 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                    <div class="card-body cc-experience-header">
+                        <p>March 2016 - Present</p>
+                        <div class="h5">xxxx</div>
+                    </div>
+                </div>
+                <div class="col-md-2 bg-primary aos-init aos-animate" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                    <div class="card-body cc-experience-header">
+                        <p>March 2016 - Present</p>
+                        <div class="h5">xxxx</div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="card">
+            <h2 style="text-align: center">Bank Details</h2>
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-sm-6">
+
+
+                        <ul class="list-group list-group-unbordered mb-3">
+                            <li class="list-group-item">
+                                <b>Bank Name:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  xxxxxx</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>Branch Name:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxx</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+
+
+                        <ul class="list-group list-group-unbordered mb-3">
+
+                            <li class="list-group-item">
+                                <b>Account No:</b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)"> xxxxxxx01339</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>IfSC Code:
+                    </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)"> xxxx0000</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2 style="text-align: center">EPF/CMPF</h2>
+            <div class="row">
+
+                <div class="col-sm-3">
+
+
+                    <ul class="list-group list-group-unbordered mb-3">
+                        <li class="list-group-item">
+                            <b>Pf Applicable Or Not:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   Yes</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+
+
+                    <ul class="list-group list-group-unbordered mb-3">
+
+                        <li class="list-group-item">
+                            <b>EPF/CMPF:
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">  EPF</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+
+
+                    <ul class="list-group list-group-unbordered mb-3">
+                        <li class="list-group-item">
+                            <b>UAN No:
+                            </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   101124789155</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+
+
+                    <ul class="list-group list-group-unbordered mb-3">
+                        <li class="list-group-item">
+                            <b>  PF Account Code :
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   0000010319</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+
+
+                    <ul class="list-group list-group-unbordered mb-3">
+                        <li class="list-group-item">
+                            <b>  PF Account No :
+                        </b> <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   xxxx/xxx/14758</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="card">
+            <h2 style="text-align: center">Qualification Details</h2>
+
+            <div class="datatbl table-responsive">
+                <div class="row">
+                    <table class="" style="margin-top:30px" id="qualification">
+                        <tbody>
+                            <tr style="margin-top:35px">
+                                <th style="width:30%" class="table-headings">Qualification</th>
+                                <th style="width:35%" class="table-headings">Name</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   Professional Qualification</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">Certificate Of Membership</a>
+                                    </li>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   General Qualification</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">B.Sc xxxx</a>
+                                    </li>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   General Qualification</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">Higher Secondary Education</a>
+                                    </li>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">   General Qualification</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">Secondary Examination</a>
+                                    </li>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="card">
+            <h2 style="text-align: center">Joinning Details</h2>
+
+
+            <div class="datatbl table-responsive">
+                <div class="row">
+                    <table class="" style="margin-top:30px" id="qualification">
+                        <tbody>
+                            <tr style="margin-top:35px">
+                                <th class="table-headings">Promotion/Transfer</th>
+                                <th class="table-headings">Joinning Date</th>
+                                <th class="table-headings">Office</th>
+                                <th class="table-headings">Designation</th>
+                                <th class="table-headings">Department</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">1st Joinning</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">08/06/2019</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">Project</a>
+                                    </li>
+                                </td>
+
+
+                            </tr>
+                            <tr>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="card">
+            <h2 style="text-align: center">FamilyDetails</h2>
+
+
+            <div class="datatbl table-responsive">
+                <div class="row">
+                    <table class="" style="margin-top:30px" id="qualification">
+                        <tbody>
+                            <tr style="margin-top:35px">
+                                <th class="table-headings">Name</th>
+                                <th class="table-headings">Relation</th>
+                                <th class="table-headings">Date Of Birth</th>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxxxxxx</a>
+                                    </li>
+                                </td>
+
+
+
+                            </tr>
+                            <tr>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="card">
+            <h2 style="text-align: center">Nominee Details</h2>
+
+
+            <div class="datatbl table-responsive">
+                <div class="row">
+                    <table class="" style="margin-top:30px" id="qualification">
+                        <tbody>
+                            <tr style="margin-top:35px">
+                                <th class="table-headings">Name</th>
+                                <th class="table-headings">Relation</th>
+                                <th class="table-headings">DOB</th>
+                                <th class="table-headings">Minor/Not</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxxxxxxxx</a>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li class="list-group-item">
+                                        <a class="float-right" style="text-decoration: none;color:rgb(59, 59, 59)">xxxxxxx</a>
+                                    </li>
+                                </td>
+
+
+
+                            </tr>
+                            <tr>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
